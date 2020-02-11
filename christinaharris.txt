@@ -4,43 +4,78 @@
 
 
 2. What is HTML used for? 
-    To format content and to give content usually copy and media a structure.
+    To format content and to give content, usually copy and media, structure.
 
-    3. What is an attribute and where do we put it? 
-    4. What is the h1 tag used for? How many times should I use it on a page?
-    5. Name two tags that have required attributes
-    6. What do we put in the head of our HTML document? 
-    7. What is an id? 
-    8. What elements can I add an id to? 
-    9. How many times can I use the same id on a page? 
-    10. What is a class? 
-    11. What elements can I add a class to? 
-    12. How many times can I use the same class on a page? 
-    13. How do I get my link to open in a new tab?
-    14. What is the alt attribute used for? 
-    15. How do I reference an id?
-    16. What is the difference between a section and a div
-    17. What is CSS used for? 
-    18. How to we select an element? Example - every h2 on the page
-    19. What is the difference between a class and an id? - Give me an example of when I might use each one
-    20. How do we select classes in CSS?
-    21. How do we select a p element with a single class of “human””?
-    22. What is a parent child selector? When would this be useful? 
-    23. How do you select all links within a div with the class of sidebar?
-    24. What is a pseudo selector?
-    25. What do we use the change the spacing between lines?
-    26. What do we use to change the spacing between letters?
-    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-    28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
-    30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
-    32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
-    35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+3. What is an attribute and where do we put it? 
+    It modifies the default functionality of an html tag and will appear after the element within the opening tag.
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+    It's the most important heading on the page and should only be used once.
+
+5. Name two tags that have required attributes
+    The form and head tags.
+    
+6. What do we put in the head of our HTML document? 
+    we can link external files like stylesheets, fonts, etc
+    we can set the view port
+    we can link to libraries
+    we can have seo information
+    we can put author information there or any other information we would like to communicate to other designers/developers
+
+7. What is an id?
+    a name that we give to a tag that has the strongest specificity as well as anchoring possibilities. An ID cannot have the same name as another ID and it is case sensitive. It can be used in HTML CSS and Javascript
+
+8. What elements can I add an id to? 
+    You can add IDs to all html elements
+
+
+9. How many times can I use the same id on a page? 
+    You can only use it once
+
+10. What is a class? 
+    It's a way to give classification to a specific element. 
+
+11. What elements can I add a class to? 
+    Pretty much any hmtl tag but you wouldn't really need it for elements that only the browser uses such as the head, base, script, meta, etc. Pretty much anything you wouldn't be able to see on a browser there just wouldn't be a point to adding a class for it to be styled.
+    
+12. How many times can I use the same class on a page? 
+    Many times. There's no limit. Every time you use the class on an element that element will take on the same styling.
+
+13. How do I get my link to open in a new tab?
+    You need to add a target="_blank" attribute to your <a> tag or link element.
+
+14. What is the alt attribute used for? 
+    If an image or media doesn't load/appear this is a good way to indicate to the viewer what would have been there.
+15. How do I reference an id?
+    in CSS and Javascript you use the # symbol followed by ID name. 
+
+16. What is the difference between a section and a div
+    A section is more or less where relevant content begins and ends. A div is more of a styling device used within a section.
+
+17. What is CSS used for? 
+    CSS is to style Html.
+
+18. How to we select an element? Example - every h2 on the page
+    
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+20. How do we select classes in CSS?
+21. How do we select a p element with a single class of “human””?
+22. What is a parent child selector? When would this be useful? 
+23. How do you select all links within a div with the class of sidebar?
+24. What is a pseudo selector?
+25. What do we use the change the spacing between lines?
+26. What do we use to change the spacing between letters?
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+28. How do I add a 1px border around my div that is dotted and black?
+29. How do I select everything on the page? 
+30. How do I write a comment in CSS?
+31. How do I find out what file I am in, when I am using the command line? 
+32. Using the command line - how do I see a list of files/folders in my current folder?
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+34. Why should I use version control? 
+35. How often should I commit to github?
+36. What is the command we would use to push our repo up to github? 
+37. Walk me through Lambda's git flow. 
 
 Stretch Questions
 
