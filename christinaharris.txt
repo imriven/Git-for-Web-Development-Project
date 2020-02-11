@@ -1,0 +1,173 @@
+https://codepen.io/imriven/pen/ExjVYrW?editors=1000
+
+1. What is Semantic HTML? 
+    Presents meaning and hierarchy so that we can give more importance to some content rather than others so that we can lead the reader around the website.
+
+
+2. What is HTML used for? 
+    To format content and to give content, usually copy and media, structure.
+
+3. What is an attribute and where do we put it? 
+    It modifies the default functionality of an html tag and will appear after the element within the opening tag.
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+    It's the most important heading on the page and should only be used once.
+
+5. Name two tags that have required attributes
+    The form and head tags.
+    
+6. What do we put in the head of our HTML document? 
+    we can link external files like stylesheets, fonts, etc
+    we can set the view port
+    we can link to libraries
+    we can have seo information
+    we can put author information there or any other information we would like to communicate to other designers/developers
+
+7. What is an id?
+    a name that we give to a tag that has the strongest specificity as well as anchoring possibilities. An ID cannot have the same name as another ID and it is case sensitive. It can be used in HTML CSS and Javascript
+
+8. What elements can I add an id to? 
+    You can add IDs to all html elements
+
+
+9. How many times can I use the same id on a page? 
+    You can only use it once
+
+10. What is a class? 
+    It's a way to give classification to a specific element. 
+
+11. What elements can I add a class to? 
+    Pretty much any hmtl tag but you wouldn't really need it for elements that only the browser uses such as the head, base, script, meta, etc. Pretty much anything you wouldn't be able to see on a browser there just wouldn't be a point to adding a class for it to be styled.
+    
+12. How many times can I use the same class on a page? 
+    Many times. There's no limit. Every time you use the class on an element that element will take on the same styling.
+
+13. How do I get my link to open in a new tab?
+    You need to add a target="_blank" attribute to your <a> tag or link element.
+
+14. What is the alt attribute used for? 
+    If an image or media doesn't load/appear this is a good way to indicate to the viewer what would have been there.
+15. How do I reference an id?
+    in CSS and Javascript you use the # symbol followed by ID name. 
+
+16. What is the difference between a section and a div
+    A section is more or less where relevant content begins and ends. A div is more of a styling device used within a section.
+
+17. What is CSS used for? 
+    CSS is to style Html.
+
+18. How to we select an element? Example - every h2 on the page
+    On your CSS document for:
+    type selectors - just the element (p-paragraph, h2-heading2 body)
+    ID selectors - you want to use a # and then the name of the selector (#contact)
+    Class selectors - you want to use a . and then the name of the selector (.intro)
+
+
+19. What is the difference between a class and an id? - Give me an example of when I might 
+use each one
+    An ID has more importance than a class. Also and ID can only be used to identify one element while a class can be used to identify more than one.
+
+20. How do we select classes in CSS?'
+    you type a . before the class name - .CTA1
+
+21. How do we select a p element with a single class of “human””?
+    p.human
+
+22. What is a parent child selector? When would this be useful? 
+    calling a selector based on its nested relationship. When you need to style something specific. It's another way of classifying importance
+
+23. How do you select all links within a div with the class of sidebar?
+    a.sidebar
+
+24. What is a pseudo selector?
+    These define a special state within an element - like hover, active, and after.
+
+25. What do we use the change the spacing between lines?
+    You would use the line-height property
+
+26. What do we use to change the spacing between letters?
+    You would use the letter-spacing property
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform:lowercase (for lowercase letters)
+    text-transform:uppercase (for capital letters)
+    text-transform:capitalize (for first capital letters in each word)
+
+28. How do I add a 1px border around my div that is dotted and black?
+    borders have properties. You can use the border-style property to style borders. For a 1px border that is dotted and black it would look something like:
+    
+    div {
+        border-style: dotted;
+        border-color: black;
+        border-width: 1px;
+    }
+
+29. How do I select everything on the page? 
+    You would use the * symbol for everything on the page.
+
+30. How do I write a comment in CSS?
+    With these awesome symbols /* */ 
+    ex:  /* for comments only! */
+
+31. How do I find out what file I am in, when I am using the command line? 
+    pwd, ls, but also above the prompt will show you what path you have taken and where you are.
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+    You would use the LS command
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    You would use the rm command and have to be very careful because it is permanent
+
+34. Why should I use version control? 
+    Every pushed version is saved and if something goes awry it's very easy to get an older version where things were still ok and pick up from there instead of starting from scratch.
+
+35. How often should I commit to github?
+    Often. I will usually commit every 5 to ten minutes. 
+
+36. What is the command we would use to push our repo up to github? 
+    git push
+
+37. Walk me through Lambda's git flow. 
+    1. First thing we always want to fork.
+    2. After forking we want to add a collaborator
+    3. We then should clone the project onto our computer using the command line:
+        git clone (url)
+    * should be in the correct folder before cloning the project.
+    4. go into the project folder with a cd command
+    5. use git checkout -b "-firstname-lastname" to create our own branch name for the repo.
+    6. You can then work on the repo
+    7. Add, Commit, and Push changes often. During commits leave detailed messages just in case you have to come back and use that version.
+    8.Push changes back to github repo using git push -u origin branch-name
+    9.Go back on Github and under the current project we want to switch the branch master to select our name branch.
+    10.We want to create a new pull request
+    11. we need to change th base repository before creating the pull request
+    12. add the tl to our reviewers and submit our pull request.
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+        Elements are divided into these to catagories for the sake of styling. You can use inline styling inside of a block element but not the other way around. 
+
+    2. What happens when an element is positioned absolutely? 
+        The element will position itself absolute to the closest relative depending on what properties are used. You can specify where you want the element to appear by using the top, bottom, left and right properties.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        You can use the flex property. You can set it to grow and shrink and give it a minimum width and height.
+
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        display block:
+        div
+        p
+        section
+
+        display inline:
+        b
+        em
+
+        display inline block:
+        button
+
+
+    5. In your own words, explain the box model. What is the fix for the box model? 
+        It's a guide to how some styling properties are organized. It's content wrapped with padding, then border, and then a margin. Well I've never used this before but I have read the solution is box-sizing: border-box. I'm not sure why default padding, margin, and border would be a problem if you could specify it to be something else? I guess this isn't a problem I've run into yet so I'm not sure what the issue is? I will read more about it!
